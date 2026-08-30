@@ -14,3 +14,4 @@ In the result, found at README.md of every folder, you can find two benchmarks: 
 ## Current programs
 
 **C++**: split
+**C++**: startswith
