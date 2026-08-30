@@ -1,0 +1,15 @@
+{
+    "jobs": [
+        {
+            "compiler": "cl",
+            "id": "cl",
+            "flags": [
+                "/EHsc",
+                "/std:c++17"
+            ],
+            "input": "*.cpp",
+            "output": "startswith",
+            "outputSymbol": "/Fe:"
+        }
+    ]
+}
