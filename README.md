@@ -20,3 +20,5 @@ In the result, found at README.md of every folder, you can find two benchmarks: 
 **C++**: endswith
 
 **C++**: after
+
+**C++**: before
