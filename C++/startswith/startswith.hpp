@@ -1,4 +1,4 @@
 #include <cstring>
 #include <string>
 
-bool startswith(std::string a, std::string b);
+bool startswith(const std::string& a, const std::string& b);

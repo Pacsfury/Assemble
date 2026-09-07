@@ -3,7 +3,7 @@
 
 #include "startswith.hpp"
 
-bool startswith(std::string a, std::string b) {
+bool startswith(const std::string& a, const std::string& b) {
     if (a.size() < b.size() || (a == "" && b != "")) return false;
     if (a == b || b == "") return true;
 

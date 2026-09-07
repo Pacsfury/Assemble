@@ -15,14 +15,14 @@ It has been executed using the `AUTOPY.json` file included here (only cl version
 
 ```
 Accuracy tests passed!
-Time: 12134 us total (0.12134 us/op)
+Time: 4086 us total (0.04086 us/op)
 ```
 
 **Optimization** _cl *.cpp /EHsc /O2 /std:c++17_
 
 ```
 Accuracy tests passed!
-Time: 873 us total (0.00873 us/op)
+Time: 540 us total (0.0054 us/op)
 ```
 
 In both versions the same benchmark has been used.
