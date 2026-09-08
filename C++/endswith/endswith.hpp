@@ -1,4 +1,4 @@
 #include <cstring>
 #include <string>
 
-bool endswith(std::string a, std::string b);
+bool endswith(const std::string& a, const std::string& b);

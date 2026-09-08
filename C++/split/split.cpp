@@ -3,7 +3,7 @@
 
 #include "split.hpp"
 
-std::vector<std::string> split(std::string text, char del, size_t max) {
+std::vector<std::string> split(const std::string& text, char del, size_t max) {
     std::vector<std::string> res;
     if (text.empty()) return res;
 

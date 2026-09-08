@@ -3,7 +3,7 @@
 
 #include "endswith.hpp"
 
-bool endswith(std::string a, std::string b) {
+bool endswith(const std::string& a, const std::string& b) {
     if (a.size() < b.size() || (a == "" && b != "")) return false;
     if (a == b || b == "") return true;
 
